@@ -37,4 +37,6 @@ outputs = gr.Textbox(label="Joke(s) Generated")
 title = "Joke Generator App"
 
 app = gr.Interface(fn=processor,inputs=inputs,outputs="text",title=title)
-app.launch(share=True)
+app.launch()
+#If you want it to be accessed public
+# app.launch(share=True)
