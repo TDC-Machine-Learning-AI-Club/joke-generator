@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-API_KEY = "AIzaSyApI6-GxkTMrpAc4P4wdy37jn_6SwHTTtw"
+API_KEY = ""
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={API_KEY}".format(API_KEY=API_KEY)
 
 
